@@ -1,0 +1,8 @@
+
+spring:
+  data:
+    cassandra:
+      keyspaceName: cassberry
+      contactPoints: 192.168.1.48 # cassandra.eberrysolutions.com
+      port: 9042
+      schemaAction: CREATE_IF_NOT_EXISTS
